@@ -10,5 +10,7 @@
 Run:
 > src/Tic-Tac-Toe.bat
 
+Use your cursor to click on selected area.
+
 # Difficulty
 It's a balance of **easy** and **medium**.

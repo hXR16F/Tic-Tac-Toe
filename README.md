@@ -13,4 +13,4 @@ Run:
 Use your cursor to click on selected area.
 
 # Difficulty
-It's a balance of **easy** and **medium**.
+**Easy** or **very easy**.

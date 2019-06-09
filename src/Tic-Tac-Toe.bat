@@ -350,29 +350,29 @@ goto :eof
 		exit /b
 		
 	:win
-		echo -gcaaaaaaaaaaaaaaaaaaaaaaa 9 17 0x09 220 220 220 220 220 220 220 220 220 220 220 220 220 220 220 220 220 220 220 220 220 220 220
+		echo -gc  9 17 0x09 -23a 220 220 220 220 220 220 220 220 220 220 220 220 220 220 220 220 220 220 220 220 220 220 220
 		echo -gcd 9 18 0xf0 "                       "
 		echo -gcd 9 19 0xf0 "  You are the winner^!  "
 		echo -gcd 9 20 0xf0 "                       "
-		echo -gcaaaaaaaaaaaaaaaaaaaaa 10 21 0x07 223 223 223 223 223 223 223 223 223 223 223 223 223 223 223 223 223 223 223 223 223
+		echo -gc 10 21 0x07 -21a 223 223 223 223 223 223 223 223 223 223 223 223 223 223 223 223 223 223 223 223 223
 		@ping localhost -n 3 >nul
 		goto :main
 		
 	:lose
-		echo -gcaaaaaaaaaaaaa 14 17 0x0c 220 220 220 220 220 220 220 220 220 220 220 220 220
+		echo -gc 14 17 0x0c -13a 220 220 220 220 220 220 220 220 220 220 220 220 220
 		echo -gcd 14 18 0xf0 "             "
 		echo -gcd 14 19 0xf0 "  You lose^!  "
 		echo -gcd 14 20 0xf0 "             "
-		echo -gcaaaaaaaaaaa 15 21 0x07 223 223 223 223 223 223 223 223 223 223 223
+		echo -gc 15 21 0x07 -11a 223 223 223 223 223 223 223 223 223 223 223
 		@ping localhost -n 3 >nul
 		goto :main
 		
 	:draw
-		echo -gcaaaaaaaaa 16 17 0x08 220 220 220 220 220 220 220 220 220
+		echo -gc 16 17 0x08 -9a 220 220 220 220 220 220 220 220 220
 		echo -gcd 16 18 0xf0 "         "
 		echo -gcd 16 19 0xf0 "  Draw^!  "
 		echo -gcd 16 20 0xf0 "         "
-		echo -gcaaaaaaa 17 21 0x07 223 223 223 223 223 223 223
+		echo -gc 17 21 0x07 -7a 223 223 223 223 223 223 223
 		@ping localhost -n 3 >nul
 		goto :main
 		
